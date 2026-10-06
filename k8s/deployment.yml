@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cali-deployment
+  labels:
+    app: cali
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: cali
+  template:
+    metadata:
+      labels:
+        app: cali
+    spec:
+      containers:
+      - name: cali
+        image: mullafurqan/cal:latest
+        ports:
+        - containerPort: 80
