@@ -206,5 +206,5 @@ kubectl delete -f service.yaml -f deployment.yaml   # Clean up
 
 ## 👤 Author
 **mullafurqan** – [GitHub](https://github.com/mullafurqan)
-
+gmail:mullafurqan89@gmail.com
 
